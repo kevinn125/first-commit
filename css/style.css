@@ -1,0 +1,173 @@
+/*working on the entire body*/
+body{
+	font:15px/1.5,arial,helvetica;
+	padding:0;
+	margin:0;
+	background-image:url('../Background1.jpg');
+}
+/*shifting the contents away from the left edge*/
+.container{
+	width:80%;
+	margin:auto;	
+	overflow:hidden;
+}
+/*removing margins and paddings from the entire page*/
+header ul{
+	margin:0;
+	padding:0;
+}
+/*working on the subcribe button*/
+.button_1{
+	height:40px;
+	background:#e6e6e6;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+}
+
+/*for about*/
+.dark{
+	padding:20px;
+	background:#35424a;
+	color:#ffffff;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/* header. working on the top contents of the page
+having issues changing color, will b back*/
+header{
+	background-image:url('../up-background.jpg');
+	color:#000;
+	padding-top:20px;
+	min-height:70px;
+	border-bottom:#000000 3px solid;	
+}
+/*working on the links at the top of the page*/
+header a{
+	color:#ffffff;
+	text-decoration:Arial;
+	text-transform:uppercase;
+	font-size:15px;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 5px 15px 5px 15px;	
+}
+/*positioning the logo n links*/
+header #branding{
+	float:left;
+}
+/*logo*/
+header #branding h1{
+	margin:3px;
+	padding: 10px 0 10px 0;
+}
+/*putting curves on the top logo*/
+.img{
+	border-radius: 50px
+}
+/*pushing the links to the far right*/
+header nav{
+	float:right;
+	margin-top:150px;
+}
+/* moving the search content*/
+header form{
+	float:right;
+	margin-top:1px;
+}
+/*changing the color of the current link*/
+header .current a{
+	color:#e8491d;
+	font-weight:bold;
+}
+/*hover color around the links*/
+header a:hover{
+	color:#cccccc;   
+	font-weight:bold;
+}
+
+/* showcase background image*/
+#showcase{
+	height:200px;
+	background: url('../img/computer.jpg') no-repeat 0 -400px;
+	text-align:center;
+	color:#e8491d;
+	border-bottom:#000000 3px solid;
+}
+/*adjusting the contents in the showcase*/
+#showcase h1{
+	margin-top:60px;
+	font-size:30px;
+	margin-bottom:10px;	
+}
+
+#showcase p{
+	font-size:20px;
+}
+
+/*newsletter*/
+#newsletter{
+	padding:15px;
+	color:#ffffff;
+	background:#35424a;
+}
+
+#newsletter h1{
+	float:left;
+}
+
+#newsletter form{
+	float:right;
+	margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+	padding:4px;
+	height:20px;
+	width:250px;
+}
+
+/*boxes, working on the icons below*/
+#boxes{
+	margin-top: 20px;
+}
+/*aligning the icons into grid form*/
+#boxes .box{
+	float:left;
+	text-align:center;
+	width:30%;
+	padding:10px;
+}
+
+/*SIDEBAR to b done with about*/
+aside#sidebar{
+	float:right;
+	width:30%;
+	margin-top:50px;
+}
+
+aside#sidebar .quite input, aside#sidebar .quote textarea{
+	width:90%;
+	padding:5px;	
+}
+
+/*article main-col*/
+article#main-col{
+	float:left;
+	width:65%;
+}
+
+footer{
+	padding:20px;
+	color:#ffffff;
+	margin-top:20px;
+	background-color:#35424a;
+	text-align:center;
+	font:courier;
+}
+
